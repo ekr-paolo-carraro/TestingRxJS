@@ -1,0 +1,8 @@
+<h4>Combine 2 API: Todo and User with RxJS</h4>
+<pre>http://jsonplaceholder.typicode.com/todos</pre>
+<pre>http://jsonplaceholder.typicode.com/users</pre>
+
+<button (click)="testForkJoin($event)" title="combine results of 2 call in parallel" >Test fork join</button>
+<button (click)="testSingle($event)" title="combine 2 call in series for one todo (id:3) with corrispondent user (id:1)">Test single todo combined with user</button>
+<button (click)="testMultiple($event)" title="combine 2 call in series for many todo with their corrispondent user ">Test multiple todos combined with users</button>
+
